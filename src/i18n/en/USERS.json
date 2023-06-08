@@ -1,0 +1,18 @@
+{
+    "INVALID_FIREBASE_TOKEN": "Invalid Firebase token!",
+    "INVALID_EMAIL_OR_PASSWORD": "Invalid email or password",
+    "INVALID_CREDENTIAL": "Invalid credentials provided",
+    "USER_NOT_FOUND": "User is not found",
+    "INVALID_REFRESH_TOKEN": "Invalid refresh token",
+    "INVALID_USER_ROLE": "Access denied! Invalid user role",
+    "ALREADY_EXISTS": "User is already exists",
+    "NOT_VERIFIED_YET": "User is not verified yet",
+    "ALREADY_VERIFIED": "User is already verified",
+    "FIREBASE_USER_EMAIL_NOT_VERIFIED": "Firebase user is not verified",
+    "INVALID_FIREBASE_USER": "Invalid firebase user, either email or phone number must be present",
+    "FIREBASE_USER_IS_NOT_REGISTERED": "The user is not registered, to login register first",
+    "FIREBASE_USER_IS_ALREADY_REGISTERED": "The user is already registered. Try to login",
+    "INVALID_OLD_PASSWORD": "Provided old password is invalid",
+    "INVALID_EMAIL": "Entered email is not valid",
+    "UNSUPPORTED_NOTIFICATION_PLATFORM": "Notification platform for {0.platform} is unsupported"
+}

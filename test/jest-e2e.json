@@ -1,0 +1,23 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@app/utils/(.*)": "<rootDir>/../libs/utils/src/$1",
+    "@app/utils": "<rootDir>/../libs/utils/src",
+    "@app/storage/(.*)": "<rootDir>/../libs/storage/src/$1",
+    "@app/storage": "<rootDir>/../libs/storage/src",
+    "@app/file-upload/(.*)": "<rootDir>/../libs/file-upload/src/$1",
+    "@app/file-upload": "<rootDir>/../libs/file-upload/src",
+    "@app/oauth/(.*)": "<rootDir>/../libs/oauth/src/$1",
+    "@app/oauth": "<rootDir>/../libs/oauth/src",
+    "@app/mongodb-memory-server/(.*)": "<rootDir>/../libs/mongodb-memory-server/src/$1",
+    "@app/mongodb-memory-server": "<rootDir>/../libs/mongodb-memory-server/src",
+    "@app/email/(.*)": "<rootDir>/../libs/email/src/$1",
+    "@app/email": "<rootDir>/../libs/email/src"
+  }
+}

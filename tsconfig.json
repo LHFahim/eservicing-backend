@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": false,
+    "useUnknownInCatchVariables": false,
+    "jsx": "react-jsx",
+    "paths": {
+      "@app/jwt": ["libs/jwt/src"],
+      "@app/file-upload": ["libs/file-upload/src"],
+      "@app/file-upload/*": ["libs/file-upload/src/*"],
+      "@app/firebase": ["libs/firebase-admin/src"],
+      "@app/firebase/*": ["libs/firebase-admin/src/*"],
+      "@app/oauth": ["libs/oauth/src"],
+      "@app/oauth/*": ["libs/oauth/src/*"],
+      "@app/sendgrid": ["libs/sendgrid/src"],
+      "@app/sendgrid/*": ["libs/sendgrid/src/*"],
+      "@app/storage": ["libs/storage/src"],
+      "@app/storage/*": ["libs/storage/src/*"],
+      "@app/utils": ["libs/utils/src"],
+      "@app/utils/*": ["libs/utils/src/*"]
+    }
+  }
+}
